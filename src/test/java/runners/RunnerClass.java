@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         //features we used to provide the path of all the feature files
-        features = "src/test/resources/features/",
+        features = "src/test/resources/features/AddEmployee.feature",
         //glues is where we find implementations for gherkin steps
         //we provide the path of package to get all the step definitions
         //don't forget put coma
@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
         //it means the console output for cucumber test is having irrelevant information
         //when we set it to true, it simply removes all the irrelevant information
         monochrome = true,
-        tags = "@smoke",
+        tags = "@e2eTest1",
 
         //html report will be generated under target folder
         plugin = {"html:target/cucumber.html", "pretty","json:target/cucumber.json",
