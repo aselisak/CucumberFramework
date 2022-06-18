@@ -1,5 +1,6 @@
 package runners;
 
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -7,11 +8,11 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         //features we used to provide the path of all the feature files
-        features = "src/test/resources/features/",
+        features = "src/test/resources/features/APIWorkflow.feature",
         //glues is where we find implementations for gherkin steps
         //we provide the path of package to get all the step definitions
         //don't forget put coma
-        glue = "steps",
+        glue = "APISteps",
         //dryRun we use to get the step definitions of undefined steps.
         //if we set it to true, it will quickly scan all gherkin steps whether they are implemented or not
         //if we set it to true, it stops actual execution
@@ -27,10 +28,8 @@ import org.junit.runner.RunWith;
                 "rerun:target/failed.txt"
 
 
-}
+        }
 
 )
-
-
-public class RunnerClass {
+public class APIRunner {
 }

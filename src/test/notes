@@ -141,6 +141,75 @@ verify - verify your codes
 package - convert your code to packages
 
 
+-------------------------------------------------------------------------------------
+
+API notes
+class 5
+rest assured API
+it is DSL (domain specific language)
+It is java based library that used to automation rest API
+
+given, when, then
+Given -- pre condition
+When -- actions
+And -- supporting tag
+Then -- results
+
+Rest assured follows the functionality of BDD
+
+pre condition - request preparation, request specification
+given - to prepare the request
+when  - hitting the end point (send the request)
+Then  - expected response
+
+NOTE: baseURI = baseURL
+
+Hamcrest matchers-
+
+It is popular framework that helps us to create the matcher object
+
+Pretty print - it is used to print th response in console
+
+Recap
+
+Then -
+
+- JsonPath()
+
+- To retrieve employee from the database
+GET -
+query parameter
+token
+
+@Test - junit annotation we use to execute our test
+@fixed method order we use to change the flow of execution(Name.Ascending - alphabetical order
+
+To update the details of the employee
+PUT
+
+Body
+header
+token
+endpoint
+
+200 vs 201
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
