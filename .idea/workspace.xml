@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6728299b-dd1d-422d-a0ec-bdba55d1b14a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/APIreview/APIExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_9_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/APISteps/APIWorkflowSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APISteps/APIWorkflowSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CucumberFrameworkBatch12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CucumberFrameworkBatch12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/APIRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/APIRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/APIPayloadConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/APIPayloadConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/APIWorkflow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/APIWorkflow.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/APISteps/GenerateTokenSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/APISteps/GenerateTokenSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/APIWorkflow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/APIWorkflow.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runners/APIRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/APIRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +86,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources/testdata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.APIRunner">
+  <component name="RunManager" selected="JUnit.APIExamples.createEmployee">
     <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/APIWorkflow.feature" />
@@ -104,6 +103,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APIExamples.createEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberFrameworkBatch12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APIreview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="APIreview" />
+      <option name="MAIN_CLASS_NAME" value="APIreview.APIExamples" />
+      <option name="METHOD_NAME" value="createEmployee" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,22 +153,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardCodedExamples.bgetCreatedEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CucumberFrameworkBatch12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API" />
-      <option name="MAIN_CLASS_NAME" value="API.HardCodedExamples" />
-      <option name="METHOD_NAME" value="bgetCreatedEmployee" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RunnerClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberFrameworkBatch12" />
       <extension name="coverage">
@@ -182,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.APIExamples.createEmployee" />
         <item itemvalue="JUnit.APIRunner" />
         <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="JUnit.RunnerClass" />
         <item itemvalue="JUnit.HardCodedExamples" />
-        <item itemvalue="JUnit.HardCodedExamples.bgetCreatedEmployee" />
       </list>
     </recent_temporary>
   </component>

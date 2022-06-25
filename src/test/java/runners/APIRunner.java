@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
         //it means the console output for cucumber test is having irrelevant information
         //when we set it to true, it simply removes all the irrelevant information
         monochrome = true,
-        tags = "@dynamic",
+        tags = "@api",
 
         //html report will be generated under target folder
         plugin = {"html:target/cucumber.html", "pretty","json:target/cucumber.json",
